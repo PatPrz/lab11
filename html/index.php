@@ -1,7 +1,7 @@
 <?php
 $servername = "mysql";
-$username = "lab11";
-$password = "lab11";
+$username = "root";
+$password = "root";
 $dbname = "lab11db";
 
 // Tworzenie połączenia
