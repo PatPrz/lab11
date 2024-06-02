@@ -2,7 +2,7 @@
 $servername = "mysql";
 $username = "root";
 $password = "root";
-$dbname = "lab11db";
+$dbname = "lab11docker";
 
 // Tworzenie połączenia
 $conn = new mysqli($servername, $username, $password, $dbname);
