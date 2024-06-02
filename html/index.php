@@ -19,9 +19,9 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // Wyświetlanie nazw tabel
     echo "Tabele w bazie danych:<br>";
-    while($row = $result->fetch_assoc()) {
-        echo $row["Tables_in_lab11db"]. "<br>";
-    }
+while($row = $result->fetch_array()) {
+    echo $row[0]. "<br>";
+}
 } else {
     echo "Brak tabel w bazie danych";
 }
